@@ -100,6 +100,6 @@ async function updateAll() {
   }[main];
 }
 
-// Initial + auto-refresh every minute
+// Initial + auto-refresh every 5 seconds
 updateAll();
-setInterval(updateAll, 60000);
+setInterval(updateAll, 5000);
