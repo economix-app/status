@@ -57,7 +57,7 @@ async function checkService(svc) {
       const json = await downRes.json();
       if (json.downtime) {
         status = 'downtime';
-        color = '#f44336';
+        color = '#9e9e9e';
       }
     }
 
@@ -68,7 +68,7 @@ async function checkService(svc) {
   } catch (err) {
     console.warn('Fetch error for', svc.name, err);
     status = 'offline';
-    color = '#9e9e9e';
+    color = '#f44336';
   }
 
   // Update DOM
