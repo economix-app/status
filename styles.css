@@ -14,7 +14,7 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   color: #1e293b;
   margin-bottom: 1rem;
@@ -113,4 +113,55 @@ h1 {
 
 .badge.offline {
   background: #f44336;
+}
+
+.incidents {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.incident {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.3s;
+}
+
+.incident-status-resolved {
+  border-left: 6px solid #4caf50;
+}
+
+.incident-status-degraded {
+  border-left: 6px solid #ff9800;
+}
+
+.incident-status-outage {
+  border-left: 6px solid #f44336;
+}
+
+.incident-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.incident-status {
+  margin-top: 0.5rem;
+}
+
+.incident-description {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.no-incidents-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #64748b;
+  margin-top: 2rem;
 }
