@@ -57,11 +57,11 @@ h1 {
 }
 
 .status-downtime {
-  background: #f44336;
+  background: #9e9e9e;
 }
 
 .status-offline {
-  background: #9e9e9e;
+  background: #f44336;
 }
 
 .services {
@@ -108,9 +108,9 @@ h1 {
 }
 
 .badge.downtime {
-  background: #f44336;
+  background: #9e9e9e;
 }
 
 .badge.offline {
-  background: #9e9e9e;
+  background: #f44336;
 }
