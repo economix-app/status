@@ -14,7 +14,7 @@ const services = [
   {
     name: 'API',
     checkUrl: 'https://api.economix.lol/api/ping',
-    downtimeUrl: 'https://api.economix.lol/api/get_downtime',
+    downtimeUrl: 'https://api.economix.lol/api/get_raw_downtime',
     isAPI: true
   }
 ];
